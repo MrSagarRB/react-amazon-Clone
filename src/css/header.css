@@ -1,3 +1,92 @@
 .header_logo{
-    width: 140px;
+    width: 120px;
+    margin-right: 20px;
 }
+
+
+.header{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #131921;
+     position: sticky;
+     top: 0;
+     z-index: 100;
+     padding: 0px 20px;
+}
+
+.header_bottom{
+    background-color: #232f3e;
+}
+
+.header_bottom ul{
+    list-style: none;
+    padding: 5px 30px 10px 30px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.header_bottom ul li{
+    margin-right: 20px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+
+.header_search{
+    display: flex;
+    flex: 1 ;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.header_search input{
+   
+    height: 20px;
+    padding: 10px;
+    border: 0; 
+    width: 80%;
+}
+
+
+.header_searchIcon{
+     padding: 8px;
+     height: 20px;
+     background-color: #cd9042;
+}
+
+.header_nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.header_option{
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    flex-direction: column;
+}
+
+.header_optionOne{
+    font-size: 13px; 
+    color: #fff;
+}
+
+.header_optionTwo{
+    display: block;
+    font-size: 13px;
+    font-weight: 800;
+    color: #fff;
+}
+
+.header_optionBasket{
+    color: #fff;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+

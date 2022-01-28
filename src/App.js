@@ -5,6 +5,10 @@ function App() {
     <div className="App">
 
       <Header />
+      <div className='banner'>
+        i<img src="" />
+
+      </div>
      
     </div>
   );
