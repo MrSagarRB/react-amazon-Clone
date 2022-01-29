@@ -2,15 +2,18 @@ import React from "react";
 import "./css/header.css";
 import Search from "@material-ui/icons/Search";
 import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
     <>
       <div className="header">
+        <Link to="/"> 
         <img
           src="https://www.mabaya.com/wp-content/uploads/2019/10/amazon_PNG25.png"
           className="header_logo"
         />
+        </Link>
 
         <div className="header_search">
           <input type="text" />
@@ -32,11 +35,14 @@ function Header() {
             <span className="header_optionOne"> Your </span>
             <span className="header_optionTwo"> Prime </span>
           </div>
-
+         
           <div className="header_optionBasket">
+          <Link to="/cart"> 
             <ShoppingCartIcon />
             <span>2</span>
+            </Link>
           </div>
+         
         </div>
       </div>
       <div className="header_bottom">
@@ -49,7 +55,7 @@ function Header() {
           <li> Shoes</li>
           <li> Electronics</li>
 
-          {/* <li><img src="https://gthinkstudio.files.wordpress.com/2016/10/add-stircellarsv-07-12.jpg" /> </li> */}
+          {/* <li><img src="https://images-eu.ssl-images-amazon.com/images/G/31/img19/MAI/Sweepstakes/Nov/MEDH_SWM_1500x200.jpg" /> </li> */}
         </ul>
       </div>
     </>
