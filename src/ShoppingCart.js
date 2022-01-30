@@ -1,15 +1,24 @@
 import React from "react";
+import "./css/cart.css";
 
 function ShoppingCart() {
   return (
     <div className="checkout">
       <div className="checkout_left">
-        <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c9b75c78-23da-4033-ba1c-0feb2f6ec21a/d2j7rk1-6ad65174-45e6-4d18-a4ed-de1c0c15d5e1.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2M5Yjc1Yzc4LTIzZGEtNDAzMy1iYTFjLTBmZWIyZjZlYzIxYVwvZDJqN3JrMS02YWQ2NTE3NC00NWU2LTRkMTgtYTRlZC1kZTFjMGMxNWQ1ZTEuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.mZyYzbDVYci4JZq14prKailBLq4XV-wEUFqk6r3tVLo" />
+        <img
+          src="https://blog.hubspot.com/hubfs/How%20to%20Explain%20Banner%20Ads%20to%20Anyone-5.png"
+          className="checkout_add"
+        />
         <div>
           <h3>Hello Sagar</h3>
-          <h2>Your Shopping Basket</h2>
+          <h2 className="checkout_title">Your Shopping Basket</h2>
+         
+         
           <div className="checkoutProduct">
-            <img src="" />
+            <img
+              src="https://assetscdn1.paytm.com/images/catalog/product/A/AP/APPSUR-T-MEN-COPATE2956072B022AAD/1586406885432_0..jpg"
+              className=""
+            />
             <div className="checkoutProduct_info">
               <p className="checkoutProduct_title"> Product Name</p>
               <p className="checkoutProduct_price">
@@ -18,6 +27,16 @@ function ShoppingCart() {
               <button>Remove from Basket</button>
             </div>
           </div>
+
+
+         
+
+
+
+
+
+
+
         </div>
       </div>
       <div className="checkout_right">
