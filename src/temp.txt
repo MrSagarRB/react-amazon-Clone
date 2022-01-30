@@ -1,0 +1,9 @@
+
+  <div className="banner">
+          <img src=" http://swerve.co.uk/images/products/zoom/1439910855-90719800.jpg" />
+
+        </div>
+
+
+
+        <Route path="/" element={<Products/>} />
