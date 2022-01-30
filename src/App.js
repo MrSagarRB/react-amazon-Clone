@@ -48,9 +48,9 @@ function App() {
       <div className="App">
         <Header cart={cart} />
 
-        {/* <div className="banner">
-          <img src=" https://m.media-amazon.com/images/I/61QUk-m6-4L._SX3000_.jpg" />
-        </div> */}
+        <div className="banner">
+          <img src=" https://m.media-amazon.com/images/I/61aUfpZteZL._SX3000_.jpg" />
+        </div>
 
         <Routes>
           <Route
