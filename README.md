@@ -2,4 +2,4 @@
 Amazon Clone  Using React Js (HTML, CSS, Material UI )
 
 
-https://react-amazon-clone-nss5zzbvl-mrsagarrb.vercel.app/
+https://react-amazon-clone-mcpgeo3hx-mrsagarrb.vercel.app/
