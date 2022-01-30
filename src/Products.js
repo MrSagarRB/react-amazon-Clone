@@ -2,8 +2,8 @@ import React from "react";
 import "./css/product.css";
 
 
-function Products({productsList}) {
-  console.log(productsList)
+function Products({productsList,addToCart}) {
+  
   return (
         
     <div className="products_wrap">
@@ -13,7 +13,7 @@ function Products({productsList}) {
                      <img src={items.image.url}/>
                      <h3> {items.name}</h3>
                      <p>{items.price.formatted_with_symbol}</p>
-                     <button> Add to Cart</button>
+                     <button onClick={()=>addToCart(items.id,1)}> Add to Cart</button>
                    </div>
 
 
